@@ -14,7 +14,7 @@
 </ul>
 
 <p>How many mines do you want on the field? 10</p>
-<div>
+<code>
  │123456789│
 —│—————————│
 1│.........│
@@ -28,7 +28,7 @@
 9│.........│
 —│—————————│
 
-</div>
+</code>
 
 
 <p>To see short demonstration, please run demonstration.mp4 file</p>
