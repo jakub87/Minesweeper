@@ -12,8 +12,9 @@
 <li>If the user marks all the cells with potential mines, the user wins. Note that the user must mark all the mines, but no empty cells; if the user has extra flags that do not mark mines, they continue playing. After clearing all excess mine flags, the user wins. This situation is presented in the second example.</li>
 <li>There is another way to win. The user can simply check all safe cells, leaving only the cells with mines unexplored. After that, the user wins. This situation is presented in the third example.</li>
 </ul>
-
-<p>How many mines do you want on the field? 10</p>
+<p>Example 1</p>
+<code>How many mines do you want on the field? 10</code></br>
+<code></code></br>
 <code> │123456789│</code></br>
 <code>—│—————————│</code></br>
 <code>1│.........│</code></br>
@@ -26,5 +27,118 @@
 <code>8│.........│</code></br>
 <code>9│.........│</code></br>
 <code>—│—————————│</code></br>
+<code>Set/unset mines marks or claim a cell as free: 3 2 free</code></br>
+<code></code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│.1///1...│</code></br>
+<code>2│.1//12...│</code></br>
+<code>3│11//1....│</code></br>
+<code>4│////1....│</code></br>
+<code>5│11111....│</code></br>
+<code>6│.........│</code></br>
+<code>7│.........│</code></br>
+<code>8│.........│</code></br>
+<code>9│.........│</code></br>
+<code>—│—————————│</code></br>
+<code>Set/unset mines marks or claim a cell as free: 1 1 free</code></br>
+<code></code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│11///1...│</code></br>
+<code>2│.1//12...│</code></br>
+<code>3│11//1....│</code></br>
+<code>4│////1....│</code></br>
+<code>5│11111....│</code></br>
+<code>6│.........│</code></br>
+<code>7│.........│</code></br>
+<code>8│.........│</code></br>
+<code>9│.........│</code></br>
+<code>—│—————————│</code></br>
+<code>Set/unset mines marks or claim a cell as free: 1 2 mine</code></br>
+<code></code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│11///1...│</code></br>
+<code>2│*1//12...│</code></br>
+<code>3│11//1....│</code></br>
+<code>4│////1....│</code></br>
+<code>5│11111....│</code></br>
+<code>6│.........│</code></br>
+<code>7│.........│</code></br>
+<code>8│.........│</code></br>
+<code>9│.........│</code></br>
+<code>—│—————————│</code></br>
+<code>Set/unset mines marks or claim a cell as free: 8 8 free</code></br>
+<code></code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│11///1...│</code></br>
+<code>2│*1//12...│</code></br>
+<code>3│11//1....│</code></br>
+<code>4│////1....│</code></br>
+<code>5│11111....│</code></br>
+<code>6│.........│</code></br>
+<code>7│.........│</code></br>
+<code>8│.......1.│</code></br>
+<code>9│.........│</code></br>
+<code>—│—————————│</code></br>
+<code>Set/unset mines marks or claim a cell as free: 7 8 free</code></br>
+<code></code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│11///1...│</code></br>
+<code>2│*1//12...│</code></br>
+<code>3│11//1....│</code></br>
+<code>4│////1....│</code></br>
+<code>5│11111....│</code></br>
+<code>6│.........│</code></br>
+<code>7│.........│</code></br>
+<code>8│......11.│</code></br>
+<code>9│.........│</code></br>
+<code>—│—————————│</code></br>
+<code>Set/unset mines marks or claim a cell as free: 6 8 free</code></br>
+<code></code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│11///1...│</code></br>
+<code>2│*1//12...│</code></br>
+<code>3│11//1....│</code></br>
+<code>4│////1....│</code></br>
+<code>5│11111....│</code></br>
+<code>6│.........│</code></br>
+<code>7│.........│</code></br>
+<code>8│.....211.│</code></br>
+<code>9│.........│</code></br>
+<code>—│—————————│</code></br>
+<code>Set/unset mines marks or claim a cell as free: 2 7 free</code></br>
+<code></code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│11///1...│</code></br>
+<code>2│*1//12...│</code></br>
+<code>3│11//1....│</code></br>
+<code>4│////1....│</code></br>
+<code>5│11111....│</code></br>
+<code>6│.........│</code></br>
+<code>7│.3.......│</code></br>
+<code>8│.....211.│</code></br>
+<code>9│.........│</code></br>
+<code>—│—————————│</code></br>
+<code>Set/unset mines marks or claim a cell as free: 5 6 free</code></br>
+<code></code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│11///1X..│</code></br>
+<code>2│X1//12...│</code></br>
+<code>3│11//1X...│</code></br>
+<code>4│////1....│</code></br>
+<code>5│11111....│</code></br>
+<code>6│.X..X....│</code></br>
+<code>7│.3X...X..│</code></br>
+<code>8│.X..X211.│</code></br>
+<code>9│...X.....│</code></br>
+<code>—│—————————│</code></br>
+<code>You stepped on a mine and failed!</code></br>
 
 <p>To see short demonstration, please run demonstration.mp4 file</p>
