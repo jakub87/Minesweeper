@@ -13,8 +13,8 @@
 <li>There is another way to win. The user can simply check all safe cells, leaving only the cells with mines unexplored. After that, the user wins. This situation is presented in the third example.</li>
 </ul>
 
-How many mines do you want on the field? 10
-
+<p>How many mines do you want on the field? 10</p>
+<div>
  │123456789│
 —│—————————│
 1│.........│
@@ -27,119 +27,8 @@ How many mines do you want on the field? 10
 8│.........│
 9│.........│
 —│—————————│
-Set/unset mines marks or claim a cell as free: 3 2 free
 
- │123456789│
-—│—————————│
-1│.1///1...│
-2│.1//12...│
-3│11//1....│
-4│////1....│
-5│11111....│
-6│.........│
-7│.........│
-8│.........│
-9│.........│
-—│—————————│
-Set/unset mines marks or claim a cell as free: 1 1 free
-
- │123456789│
-—│—————————│
-1│11///1...│
-2│.1//12...│
-3│11//1....│
-4│////1....│
-5│11111....│
-6│.........│
-7│.........│
-8│.........│
-9│.........│
-—│—————————│
-Set/unset mines marks or claim a cell as free: 1 2 mine
-
- │123456789│
-—│—————————│
-1│11///1...│
-2│*1//12...│
-3│11//1....│
-4│////1....│
-5│11111....│
-6│.........│
-7│.........│
-8│.........│
-9│.........│
-—│—————————│
-Set/unset mines marks or claim a cell as free: 8 8 free
-
- │123456789│
-—│—————————│
-1│11///1...│
-2│*1//12...│
-3│11//1....│
-4│////1....│
-5│11111....│
-6│.........│
-7│.........│
-8│.......1.│
-9│.........│
-—│—————————│
-Set/unset mines marks or claim a cell as free: 7 8 free
-
- │123456789│
-—│—————————│
-1│11///1...│
-2│*1//12...│
-3│11//1....│
-4│////1....│
-5│11111....│
-6│.........│
-7│.........│
-8│......11.│
-9│.........│
-—│—————————│
-Set/unset mines marks or claim a cell as free: 6 8 free
-
- │123456789│
-—│—————————│
-1│11///1...│
-2│*1//12...│
-3│11//1....│
-4│////1....│
-5│11111....│
-6│.........│
-7│.........│
-8│.....211.│
-9│.........│
-—│—————————│
-Set/unset mines marks or claim a cell as free: 2 7 free
-
- │123456789│
-—│—————————│
-1│11///1...│
-2│*1//12...│
-3│11//1....│
-4│////1....│
-5│11111....│
-6│.........│
-7│.3.......│
-8│.....211.│
-9│.........│
-—│—————————│
-Set/unset mines marks or claim a cell as free: 5 6 free
-
- │123456789│
-—│—————————│
-1│11///1X..│
-2│X1//12...│
-3│11//1X...│
-4│////1....│
-5│11111....│
-6│.X..X....│
-7│.3X...X..│
-8│.X..X211.│
-9│...X.....│
-—│—————————│
-You stepped on a mine and failed!
+</div>
 
 
 <p>To see short demonstration, please run demonstration.mp4 file</p>
