@@ -14,17 +14,17 @@
 </ul>
 
 <p>How many mines do you want on the field? 10</p>
-<p><code> │123456789│</code></p>
-<p><code>—│—————————│</code></p>
-<p><code>1│.........│</code></p>
-<p><code>2│.........│</code></p>
-<p><code>3│.........│</code></p>
-<p><code>4│.........│</code></p>
-<p><code>5│.........│</code></p>
-<p><code>6│.........│</code></p>
-<p><code>7│.........│</code></p>
-<p><code>8│.........│</code></p>
-<p><code>9│.........│</code></p>
-<p><code>—│—————————│</code></p>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│.........│</code></br>
+<code>2│.........│</code></br>
+<code>3│.........│</code></br>
+<code>4│.........│</code></br>
+<code>5│.........│</code></br>
+<code>6│.........│</code></br>
+<code>7│.........│</code></br>
+<code>8│.........│</code></br>
+<code>9│.........│</code></br>
+<code>—│—————————│</code></br>
 
 <p>To see short demonstration, please run demonstration.mp4 file</p>
