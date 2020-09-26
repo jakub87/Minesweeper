@@ -21,7 +21,7 @@ public class GameMineSweeper extends BasicMineSweeper {
             System.out.println("|");
         }
         System.out.println("-|---------|");
-    }
+     }
 
     private void failureGame() {
         for (int i = 0; i < mineTab.length ; i++) {
@@ -44,20 +44,12 @@ public class GameMineSweeper extends BasicMineSweeper {
                 revealFreeFields(y,x-1);
                 revealFreeFields(y+1,x);
                 revealFreeFields(y,x+1);
+                revealFreeFields(y+1,x+1);
+                revealFreeFields(y+1,x-1);
+                revealFreeFields(y-1,x-1);
+                revealFreeFields(y-1,x+1);
             } else if (Character.isDigit(mineTab[y][x])){
                 playerTab[y][x] = mineTab[y][x];
-                if (x-1>=0 && y+1 < mineTab.length && mineTab[y][x-1] == '/' && Character.isDigit(mineTab[y+1][x-1])) {
-                    playerTab[y+1][x] = mineTab[y+1][x];
-                }
-                if (x-1>=0  && y-1>= 0 && mineTab[y][x-1] == '/' && Character.isDigit(mineTab[y-1][x])) {
-                    playerTab[y-1][x] = mineTab[y-1][x];
-                }
-                if (y+1 < mineTab.length && x+1< mineTab.length && mineTab[y][x+1] == '/' && Character.isDigit(mineTab[y+1][x+1])) {
-                    playerTab[y+1][x] = mineTab[y+1][x];
-                }
-                if (y-1>=0 && x+1<mineTab.length && mineTab[y][x+1] == '/' && Character.isDigit(mineTab[y-1][x])) {
-                    playerTab[y-1][x] = mineTab[y-1][x];
-                }
             }
         }
     }

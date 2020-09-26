@@ -14,7 +14,6 @@
 </ul>
 <p>Example 1</p>
 <code>How many mines do you want on the field? 10</code></br>
-<code></code></br>
 <code> │123456789│</code></br>
 <code>—│—————————│</code></br>
 <code>1│.........│</code></br>
@@ -28,7 +27,6 @@
 <code>9│.........│</code></br>
 <code>—│—————————│</code></br>
 <code>Set/unset mines marks or claim a cell as free: 3 2 free</code></br>
-<code></code></br>
 <code> │123456789│</code></br>
 <code>—│—————————│</code></br>
 <code>1│.1///1...│</code></br>
@@ -42,7 +40,6 @@
 <code>9│.........│</code></br>
 <code>—│—————————│</code></br>
 <code>Set/unset mines marks or claim a cell as free: 1 1 free</code></br>
-<code></code></br>
 <code> │123456789│</code></br>
 <code>—│—————————│</code></br>
 <code>1│11///1...│</code></br>
@@ -56,7 +53,6 @@
 <code>9│.........│</code></br>
 <code>—│—————————│</code></br>
 <code>Set/unset mines marks or claim a cell as free: 1 2 mine</code></br>
-<code></code></br>
 <code> │123456789│</code></br>
 <code>—│—————————│</code></br>
 <code>1│11///1...│</code></br>
@@ -70,7 +66,6 @@
 <code>9│.........│</code></br>
 <code>—│—————————│</code></br>
 <code>Set/unset mines marks or claim a cell as free: 8 8 free</code></br>
-<code></code></br>
 <code> │123456789│</code></br>
 <code>—│—————————│</code></br>
 <code>1│11///1...│</code></br>
@@ -84,7 +79,6 @@
 <code>9│.........│</code></br>
 <code>—│—————————│</code></br>
 <code>Set/unset mines marks or claim a cell as free: 7 8 free</code></br>
-<code></code></br>
 <code> │123456789│</code></br>
 <code>—│—————————│</code></br>
 <code>1│11///1...│</code></br>
@@ -98,7 +92,6 @@
 <code>9│.........│</code></br>
 <code>—│—————————│</code></br>
 <code>Set/unset mines marks or claim a cell as free: 6 8 free</code></br>
-<code></code></br>
 <code> │123456789│</code></br>
 <code>—│—————————│</code></br>
 <code>1│11///1...│</code></br>
@@ -112,7 +105,6 @@
 <code>9│.........│</code></br>
 <code>—│—————————│</code></br>
 <code>Set/unset mines marks or claim a cell as free: 2 7 free</code></br>
-<code></code></br>
 <code> │123456789│</code></br>
 <code>—│—————————│</code></br>
 <code>1│11///1...│</code></br>
@@ -126,7 +118,6 @@
 <code>9│.........│</code></br>
 <code>—│—————————│</code></br>
 <code>Set/unset mines marks or claim a cell as free: 5 6 free</code></br>
-<code></code></br>
 <code> │123456789│</code></br>
 <code>—│—————————│</code></br>
 <code>1│11///1X..│</code></br>
@@ -140,5 +131,5 @@
 <code>9│...X.....│</code></br>
 <code>—│—————————│</code></br>
 <code>You stepped on a mine and failed!</code></br>
-
+<p>Example 2</p>
 <p>To see short demonstration, please run demonstration.mp4 file</p>
