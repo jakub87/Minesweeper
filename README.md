@@ -1,5 +1,5 @@
 <p>Minesweeper - project from hyperskill.org</p>
-<p>This project simulates minespeer game</p>
+<p>This project simulates minespeer game.</p>
 <p>Implemented rules</p>
 <ul>
 <li>The game starts with an empty field.</li>
@@ -132,4 +132,19 @@
 <code>—│—————————│</code></br>
 <code>You stepped on a mine and failed!</code></br>
 <p>Example 2</p>
+<div><code>How many mines do you want on the field? 8</br>
+</br>			
+ │123456789│</br>
+—│—————————│</br>
+1│.........│</br>
+2│.........│</br>
+3│.........│</br>
+4│.........│</br>
+5│.........│</br>
+6│.........│</br>
+7│.........│</br>
+8│.........│</br>
+9│.........│</br>
+—│—————————│</br>
+Set/unset mines marks or claim a cell as free: 5 5 free</br></code></div>
 <p>To see short demonstration, please run demonstration.mp4 file</p>
