@@ -302,4 +302,98 @@
 <code>9│..1//////│</code></br>
 <code>—│—————————│</code></br>
 <code>Congratulations! You found all mines!</code></br>
+<p>Example 3</p>
+<code>How many mines do you want on the field? 5</code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│.........│</code></br>
+<code>2│.........│</code></br>
+<code>3│.........│</code></br>
+<code>4│.........│</code></br>
+<code>5│.........│</code></br>
+<code>6│.........│</code></br>
+<code>7│.........│</code></br>
+<code>8│.........│</code></br>
+<code>9│.........│</code></br>
+<code>—│—————————│</code></br>
+<code>Set/unset mines marks or claim a cell as free: 5 5 free</code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│/////////│</code></br>
+<code>2│/////111/│</code></br>
+<code>3│111//1.1/│</code></br>
+<code>4│..1//1.21│</code></br>
+<code>5│111//1...│</code></br>
+<code>6│/////1.21│</code></br>
+<code>7│/////111/│</code></br>
+<code>8│111//////│</code></br>
+<code>9│..1//////│</code></br>
+<code>—│—————————│</code></br>
+<code>Set/unset mines marks or claim a cell as free: 1 9 free</code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│/////////│</code></br>
+<code>2│/////111/│</code></br>
+<code>3│111//1.1/│</code></br>
+<code>4│..1//1.21│</code></br>
+<code>5│111//1...│</code></br>
+<code>6│/////1.21│</code></br>
+<code>7│/////111/│</code></br>
+<code>8│111//////│</code></br>
+<code>9│1.1//////│</code></br>
+<code>—│—————————│</code></br>
+<code>Set/unset mines marks or claim a cell as free: 1 4 free</code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│/////////│</code></br>
+<code>2│/////111/│</code></br>
+<code>3│111//1.1/│</code></br>
+<code>4│1.1//1.21│</code></br>
+<code>5│111//1...│</code></br>
+<code>6│/////1.21│</code></br>
+<code>7│/////111/│</code></br>
+<code>8│111//////│</code></br>
+<code>9│1.1//////│</code></br>
+<code>—│—————————│</code></br>
+<code>Set/unset mines marks or claim a cell as free: 7 4 free</code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│/////////│</code></br>
+<code>2│/////111/│</code></br>
+<code>3│111//1.1/│</code></br>
+<code>4│1.1//1121│</code></br>
+<code>5│111//1...│</code></br>
+<code>6│/////1.21│</code></br>
+<code>7│/////111/│</code></br>
+<code>8│111//////│</code></br>
+<code>9│1.1//////│</code></br>
+<code>—│—————————│</code></br>
+<code>Set/unset mines marks or claim a cell as free: 7 5 free</code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│/////////│</code></br>
+<code>2│/////111/│</code></br>
+<code>3│111//1.1/│</code></br>
+<code>4│1.1//1121│</code></br>
+<code>5│111//11..│</code></br>
+<code>6│/////1.21│</code></br>
+<code>7│/////111/│</code></br>
+<code>8│111//////│</code></br>
+<code>9│1.1//////│</code></br>
+<code>—│—————————│</code></br>
+<code>Set/unset mines marks or claim a cell as free: 8 5 free</code></br>
+<code> │123456789│</code></br>
+<code>—│—————————│</code></br>
+<code>1│/////////│</code></br>
+<code>2│/////111/│</code></br>
+<code>3│111//1.1/│</code></br>
+<code>4│1.1//1121│</code></br>
+<code>5│111//112.│</code></br>
+<code>6│/////1.21│</code></br>
+<code>7│/////111/│</code></br>
+<code>8│111//////│</code></br>
+<code>9│1.1//////│</code></br>
+<code>—│—————————│</code></br>
+<code>Congratulations! You found all mines!</code></br>
+</br>
 <p>To see short demonstration, please run demonstration.mp4 file</p>
